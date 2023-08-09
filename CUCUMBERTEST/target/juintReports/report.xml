@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="20.316" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="feature is to check the login functionality of qajarvis application" name="valid user can login the application" time="20.176">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user on login page......................................................passed
+And user enter the credentials..............................................passed
+Then user click on login button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="to test login functionality ." name="check login is sucessful with valid credentials." time="0">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+And user enter username and password........................................passed
+And click on login button...................................................passed
+Then user is navigate to the homepage.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
